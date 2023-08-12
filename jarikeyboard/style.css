@@ -86,7 +86,7 @@ body {
 }
 @media (max-width: 640px) {
 	.icons {
-		visibility: hidden;
+		display: none;
 	}
 	.icons-link {
 		display: block;		

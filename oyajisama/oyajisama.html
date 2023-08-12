@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oyajisama | Blog by Ifurandesu</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/img.jpg" />
+
+    <!-- Swiper.js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Header  -->
+    <header class="header" id="header">
+      <nav class="navbar container">
+        <a href="./index.html">
+          <h2 class="list-link logo">Oyajisama</h2>
+        </a>
+        <div class="menu" id="menu">
+          <ul class="list">
+            <li class="list-item">
+              <a href="#rekomendasi" class="list-link">Anime Rekomendasi</a>
+            </li>
+            <li class="list-item">
+              <a href="#animeoldbutgold" class="list-link">Anime Old but Gold</a>
+            </li>
+            <li class="list-item">
+              <a href="#animemotivasi" class="list-link">Anime Motivasi</a>
+            </li>
+            <li class="list-item">
+              <a href="#raswibu" class="list-link">Ras Wibu!</a>
+            </li>
+          </ul>
+        </div>
+        <div class="list list-tight">
+          <button class="btn btn-theme" id="theme-toggle-btn">
+            <i class="ri-sun-line sun-icon"></i>
+          </button>
+
+          <button class="btn btn-search" id="btn-search">
+            <i class="ri-search-line"></i>
+          </button>
+
+          <button class="btn btn-menu screen-lg-hidden" id="btn-menu">
+            <i class="ri-menu-4-line menu-icon"></i>
+            <i class="ri-close-circle-line close-icon"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Search  -->
+    <div class="search-form container" id="search-form-container">
+      <div class="form-container-inner">
+        <form action="#" class="form">
+          <input type="text" class="form-input" placeholder="Cari artikel.." />
+          <button class="btn form-btn" type="submit">
+            <i class="ri-search-line"></i>
+          </button>
+        </form>
+        <span class="form-note">Esc untuk menutup</span>
+      </div>
+      <button class="btn form-close-btn" id="form-close-btn">
+        <i class="ri-close-circle-line"></i>
+      </button>
+    </div>
+
+    <!-- Artikel unggulan  -->
+    <section class="featured-articles section-header">
+      <div class="featured-article-container container d-grid">
+        <div class="featured-content d-grid">
+          <div class="headline-banner">
+            <h3 class="headline fancy-border"><span class="place-items-center">Artikel terbaru</span></h3>
+            <span class="headline-description"><a href="artikel.html" class="link-list">Cara cepat menjadi Web Programmer!</a></span>
+          </div>
+          <a href="https://oyajisama.blogspot.com/2023/08/kematian-goku-pertama-kali-di-tangan-abang-kandungnya.html" class="article featured-article featured-article-1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUo27_ak4MuIZGN9mLyXNCzHW0NV4lhudqOJJXinu71qdyFd5CJnZZ-EwA8wnBr0u6xtQ" alt="Kematian Goku pertama kali di tangan abang kandungnya?" class="article-image" />
+            <span class="article-category">CeritaWibu</span>
+
+            <div class="article-data-container">
+              <div class="article-data">
+                <span>August 8th 2023</span>
+                <span class="article-data-spacer"></span>
+                <span>3 min read</span>
+              </div>
+              <span></span>
+              <h3 class="title article-title">Kematian Goku pertama kali di tangan abang kandungnya?</h3>
+            </div>
+          </a>
+
+          <a href="https://oyajisama.blogspot.com/2023/08/son-goku-alien-son-goku-bukan-manusia-bumi.html" class="article featured-article featured-article-2">
+            <img src="https://cdn.idntimes.com/content-images/duniaku/post/20210428/goku-great-ape-d0986dd2205a2c1056539f1881e4ec2f.jpg" alt="Son Goku Alien! Son Goku Bukan Manusia Bumi" class="article-image" />
+            <span class="article-category">CeritaWibu</span>
+
+            <div class="article-data-container">
+              <div class="article-data">
+                <span>August 7th 2023</span>
+                <span class="article-data-spacer"></span>
+                <span>3 min read</span>
+              </div>
+              <span></span>
+              <h3 class="title article-title">Son Goku Alien! Son Goku Bukan Manusia Bumi</h3>
+            </div>
+          </a>
+
+          <a href="https://oyajisama.blogspot.com/2023/08/aku-berlatih-menulis-dengan-bahasa-sendiri-bukan-bahasa-ai.html" class="article featured-article featured-article-3">
+            <img src="https://assets.website-files.com/63ee996e404f640fa6b177c9/6465efcce3306ff8cfc6ebf2_200000165.png" alt="Aku berlatih menulis dengan bahasa sendiri bukan bahasa AI" class="article-image" />
+            <span class="article-category">CeritaAja</span>
+
+            <div class="article-data-container">
+              <div class="article-data">
+                <span>August 6th 2023</span>
+                <span class="article-data-spacer"></span>
+                <span>3 min read</span>
+              </div>
+              <span></span>
+              <h3 class="title article-title">Aku berlatih menulis dengan bahasa sendiri bukan bahasa AI</h3>
+            </div>
+          </a>
+        </div>
+        <div class="sidebar d-grid">
+          <div class="title featured-content-title">Popular Artikel</div>
+          <a href="https://oyajisama.blogspot.com/2023/04/blog-oyajisama.html" class="popular-article-box">
+            <div class="popular-article-image-box">
+              <span class="popular-number">01</span>
+              <img src="https://i.pinimg.com/564x/76/9b/b0/769bb0fd8de16c87c15f1ae18af97727.jpg" alt="Blog Oyajisama" class="article-image" />
+            </div>
+            <div class="popular-article-data">
+              <div class="article-data">
+                <span>April 22th 2023</span>
+                <span class="article-data-spacer"></span>
+                <span>3 min read</span>
+              </div>
+              <h3 class="title article-title">Blog Oyajisama</h3>
+            </div>
+          </a>
+
+          <a href="https://oyajisama.blogspot.com/2023/08/carilah-dahulu-dragon-ball-maka-semua-permintaanmu-akan-dikabulkan.html" class="popular-article-box">
+            <div class="popular-article-image-box">
+              <span class="popular-number">02</span>
+              <img src="https://www.giantbomb.com/a/uploads/scale_small/5/57719/1114015-dragon.jpg" alt="Carilah dahulu Dragon Ball maka semua permintaanmu akan dikabulkan" class="article-image" />
+            </div>
+            <div class="popular-article-data">
+              <div class="article-data">
+                <span>August 5th 2023</span>
+                <span class="article-data-spacer"></span>
+                <span>3 min read</span>
+              </div>
+              <h3 class="title article-title">Carilah dahulu Dragon Ball maka semua permintaanmu akan dikabulkan</h3>
+            </div>
+          </a>
+
+          <a href="https://oyajisama.blogspot.com/2023/08/anime-dragon-ball.html" class="popular-article-box">
+            <div class="popular-article-image-box">
+              <span class="popular-number">03</span>
+              <img
+                src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLBILqNU-plxQUoW1UhjoKedMybm158rd6vuiX2kyIKHNSgX2OFmbWvTv6qlGSqxoy-EnRlpHxQavMcp3dE6g4RFsNL1chpTAAXak0E2hWj-Gg0Ajq5ypiuK-XB_dd_UQL0vsyc1lrBDRqGNCXYa2ImGnbBpN_yN9uhb0Iw4mwgsdPoKTxNZxaZQ8Y1biH/w200-h200/goku.jpg"
+                alt="Perjalanan Seru Son Goku di Anime Dragon Ball"
+                class="article-image"
+              />
+            </div>
+            <div class="popular-article-data">
+              <div class="article-data">
+                <span>August 4th 2023</span>
+                <span class="article-data-spacer"></span>
+                <span>3 min read</span>
+              </div>
+              <h3 class="title article-title">Perjalanan Seru Son Goku di Anime Dragon Ball</h3>
+            </div>
+          </a>
+
+          <a href="https://oyajisama.blogspot.com/2023/08/aku-berlatih-menulis-dengan-bahasa-sendiri-bukan-bahasa-ai.html" class="popular-article-box">
+            <div class="popular-article-image-box">
+              <span class="popular-number">04</span>
+              <img src="https://assets.website-files.com/63ee996e404f640fa6b177c9/6465efcce3306ff8cfc6ebf2_200000165.png" alt="Aku berlatih menulis dengan bahasa sendiri bukan bahasa AI" class="article-image" />
+            </div>
+            <div class="popular-article-data">
+              <div class="article-data">
+                <span>August 6th 2023</span>
+                <span class="article-data-spacer"></span>
+                <span>3 min read</span>
+              </div>
+              <h3 class="title article-title">Aku berlatih menulis dengan bahasa sendiri bukan bahasa AI</h3>
+            </div>
+          </a>
+
+          <a href="https://oyajisama.blogspot.com/2023/08/son-goku-alien-son-goku-bukan-manusia-bumi.html" class="popular-article-box">
+            <div class="popular-article-image-box">
+              <span class="popular-number">05</span>
+              <img src="https://cdn.idntimes.com/content-images/duniaku/post/20210428/goku-great-ape-d0986dd2205a2c1056539f1881e4ec2f.jpg" alt="Son Goku Alien! Son Goku Bukan Manusia Bumi" class="article-image" />
+            </div>
+            <div class="popular-article-data">
+              <div class="article-data">
+                <span>August 7th 2023</span>
+                <span class="article-data-spacer"></span>
+                <span>3 min read</span>
+              </div>
+              <h3 class="title article-title">Son Goku Alien! Son Goku Bukan Manusia Bumi</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Anime Rekomendasi  -->
+    <section class="section anime-recomendation">
+      <div class="container">
+        <h2 class="title section-title" data-name="Anime Rekomendasi">Anime Rekomendasi</h2>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <a href="https://oyajisama.blogspot.com/2023/08/anime-dragon-ball.html" class="article swiper-slide">
+              <img
+                src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLBILqNU-plxQUoW1UhjoKedMybm158rd6vuiX2kyIKHNSgX2OFmbWvTv6qlGSqxoy-EnRlpHxQavMcp3dE6g4RFsNL1chpTAAXak0E2hWj-Gg0Ajq5ypiuK-XB_dd_UQL0vsyc1lrBDRqGNCXYa2ImGnbBpN_yN9uhb0Iw4mwgsdPoKTxNZxaZQ8Y1biH/w200-h200/goku.jpg"
+                alt="Perjalanan Seru Son Goku di Anime Dragon Ball"
+                class="article-image"
+              />
+              <div class="article-data-container">
+                <div class="article-data">
+                  <span>August 4th 2023</span>
+                  <span class="article-data-spacer"></span>
+                  <span>3 min read</span>
+                </div>
+                <h3 class="aricle articel-title">Perjalanan Seru Son Goku di Anime Dragon Ball</h3>
+              </div>
+            </a>
+
+            <a href="#" class="article swiper-slide">
+              <img src="https://theglobalcoverage.com/wp-content/uploads/2021/06/one-punch-man.jpg" alt="Saitama Botak One Punch Man" class="article-image" />
+              <div class="article-data-container">
+                <div class="article-data">
+                  <span>Segera..</span>
+                  <span class="article-data-spacer"></span>
+                  <span>0 min read</span>
+                </div>
+                <h3 class="aricle articel-title">Saitama Botak One Punch Man</h3>
+              </div>
+            </a>
+
+            <a href="#" class="article swiper-slide">
+              <img src="https://i.pinimg.com/originals/b6/97/5f/b6975f69b722722acaa9a906c9fe731a.jpg" alt="Asta Tanpa Magic Tetap Kerja Keras" class="article-image" />
+              <div class="article-data-container">
+                <div class="article-data">
+                  <span>Segera..</span>
+                  <span class="article-data-spacer"></span>
+                  <span>0 min read</span>
+                </div>
+                <h3 class="aricle articel-title">Asta Tanpa Magic Tetap Kerja Keras</h3>
+              </div>
+            </a>
+
+            <a href="#" class="article swiper-slide">
+              <img src="https://thecinemaholic.com/wp-content/uploads/2019/05/wp1892022.png" alt="Ippo Dibulli Malah Jadi Petinju" class="article-image" />
+              <div class="article-data-container">
+                <div class="article-data">
+                  <span>Segera..</span>
+                  <span class="article-data-spacer"></span>
+                  <span>0 min read</span>
+                </div>
+                <h3 class="aricle articel-title">Ippo Dibulli Malah Jadi Petinju</h3>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-button-prev swiper-controls"></div>
+          <div class="swiper-button-next swiper-controls"></div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Popular tags  -->
+    <section class="popular-tags section">
+      <div class="container">
+        <h2 class="title section-title" data-name="Kategori Artikel">Kategori Artikel</h2>
+
+        <div class="popular-tags-container d-grid">
+          <a href="https://oyajisama.blogspot.com/search/label/ceritawibu" class="article">
+            <span class="tag-name">RasWibu</span>
+            <img src="https://static2.yan.vn/YanNews/2167221/202003/wibu-la-gi-tai-sao-wibu-bi-ki-thi-791399ae.png" alt="" class="article-image" />
+          </a>
+
+          <a href="https://oyajisama.blogspot.com/search/label/ceritaaja" class="article">
+            <span class="tag-name">CeritaAja</span>
+            <img src="https://vignette.wikia.nocookie.net/central/images/9/95/Talking_anime_people.jpg/revision/latest?cb=20160227142628" alt="" class="article-image" />
+          </a>
+
+          <a href="https://oyajisama.blogspot.com/search/label/animemotivasi" class="article">
+            <span class="tag-name">AnimeMotivasi</span>
+            <img src="https://i.pinimg.com/originals/79/3a/eb/793aeb03b82c8675e198c718ab664e15.jpg" alt="" class="article-image" />
+          </a>
+
+          <a href="https://oyajisama.blogspot.com/search/label/animemotivasi" class="article">
+            <span class="tag-name">AnimeRekomendasi</span>
+            <img src="https://therecenttimes.com/wp-content/uploads/2021/02/top-10.jpg" alt="" class="article-image" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter  -->
+    <section class="newsletter section">
+      <div class="container">
+        <h2 class="title section-title" data-name="Berlangganan Email">Berlangganan Email</h2>
+
+        <div class="form-container-inner">
+          <h6 class="title newsletter-title">Berlangganan artikel Oyajisama</h6>
+          <p class="newsletter-description">Silahkan masukan alamat email Anda untuk menerima informasi artikel terbaru dari kami GRATIS.</p>
+          <form action="" class="form">
+            <input type="text" class="form-input" placeholder="Masukan emali Anda.." />
+            <button class="btn form-btn" type="submit">
+              <i class="ri-mail-send-line"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer  -->
+    <footer class="footer section">
+      <div class="footer-container container d-grid">
+        <div class="company-data">
+          <a href="./index.html">
+            <h2 class="logo">Oyajisama</h2>
+          </a>
+          <p class="company-description">Website ini berisikan artikel bacaan menarik kita para Wibu.</p>
+
+          <ul class="list social-media">
+            <li class="list-item">
+              <a href="https://www.instagram.com/ifurandesuu" class="list-link"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li class="list-item">
+              <a href="https://www.youtube.com/@jarikeyboard" class="list-link"><i class="ri-youtube-line"></i></a>
+            </li>
+            <li class="list-item">
+              <a href="https://www.github.com/Ifuran" class="list-link"><i class="ri-github-line"></i></a>
+            </li>
+          </ul>
+          <span class="copyright-notice">&copy;2023 Oyajisama. All rights reserved</span>
+        </div>
+
+        <div>
+          <h6 class="title footer-title">Kategori</h6>
+
+          <ul class="footer-list list">
+            <li class="list-item">
+              <a href="https://oyajisama.blogspot.com/search/label/ceritawibu" class="list-link">RasWibu</a>
+            </li>
+            <li class="list-item">
+              <a href="https://oyajisama.blogspot.com/search/label/cerijaaja" class="list-link">CeritaAja</a>
+            </li>
+            <li class="list-item">
+              <a href="https://oyajisama.blogspot.com/search/label/animemotivasi" class="list-link">AnimeMotivasi</a>
+            </li>
+            <li class="list-item">
+              <a href="https://oyajisama.blogspot.com/search/label/animemotivasi" class="list-link">AnimeRekomendasi</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h6 class="title footer-title">Halaman</h6>
+
+          <ul class="footer-list list">
+            <li class="list-item">
+              <a href="https://oyajisama.blogspot.com/p/tentang-kami.html" class="list-link">Tentang Kami</a>
+            </li>
+            <li class="list-item">
+              <a href="https://oyajisama.blogspot.com/p/kebijakan-privasi.html" class="list-link">Kebijakan Privasi</a>
+            </li>
+            <li class="list-item">
+              <a href="https://oyajisama.blogspot.com/p/peraturan-pengunjung.html" class="list-link">Peraturan Pengunjung</a>
+            </li>
+            <li class="list-item">
+              <a href="https://oyajisama.blogspot.com/p/kontak.html" class="list-link">Kontak</a>
+            </li>
+            <li class="list-item">
+              <a href="https://oyajisama.blogspot.com/p/disclaimer.html" class="list-link">Disclaimer</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Swipper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Custom script -->
+    <script src="assets/js/style.js"></script>
+  </body>
+</html>
